@@ -1,0 +1,114 @@
+Q-Learning, Drawing & Standing, Training epochs = 100, Evaluation players = 100, Evaluation epochs per player = 100
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 100/100
+Learning and Calculation completed!
+Average payout of a player after 100 rounds is -30.58
+Number of actions performed in each category: {'STAND': 7518, 'HIT': 6160, 'DOUBLE DOWN': 0, 'SPLIT': 0}
+
+SARSA, Drawing & Standing, Training epochs = 100, Evaluation players = 100, Evaluation epochs per player = 100
+Start learning according to the SARSA method ...
+Learning completed!
+Start with the calculation of the profit or loss ...
+Player 100/100
+Calculation completed!
+Average payout of a player after 100 rounds is -18.02
+
+Q-Learning, Drawing & Standing, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -63.44902
+Number of actions performed in each category: {'STAND': 41803012, 'HIT': 33611474, 'DOUBLE DOWN': 0, 'SPLIT': 0}
+
+SARSA, Drawing & Standing, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000
+Start learning according to the SARSA method ...
+Epoch 50000/50000
+Learning completed!
+Start with the calculation of the profit or loss ...
+Player 50000/50000
+Calculation completed!
+Average payout of a player after 1000 rounds is -186.28736
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -109.54734
+Number of actions performed in each category: {'STAND': 34153990, 'HIT': 28570841, 'DOUBLE DOWN': 6580596, 'SPLIT': 12322346}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000, Positive reward * 2
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -98.02052
+Number of actions performed in each category: {'STAND': 33302913, 'HIT': 29575243, 'DOUBLE DOWN': 10730967, 'SPLIT': 8482234}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000, Negative reward * 2
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -269.54264
+Number of actions performed in each category: {'STAND': 41712338, 'HIT': 21101711, 'DOUBLE DOWN': 4967527, 'SPLIT': 5892290}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000, Dealer stops at 16
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -73.48748
+Number of actions performed in each category: {'STAND': 33848061, 'HIT': 30035083, 'DOUBLE DOWN': 5996992, 'SPLIT': 13221219}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000, Dealer stops at 18
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -53.3996
+Number of actions performed in each category: {'STAND': 37912002, 'HIT': 23633055, 'DOUBLE DOWN': 7033164, 'SPLIT': 6856037}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Card Counting decks = 6, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -103.94278
+Number of actions performed in each category: {'STAND': 33068582, 'HIT': 25423625, 'DOUBLE DOWN': 9553012, 'SPLIT': 12116754}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Card Counting decks = 4, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -85.10028
+Number of actions performed in each category: {'STAND': 34500246, 'HIT': 24176349, 'DOUBLE DOWN': 7652610, 'SPLIT': 11800065}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Card Counting decks = 1, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is 0.70628
+Number of actions performed in each category: {'STAND': 34136613, 'HIT': 21707263, 'DOUBLE DOWN': 9879863, 'SPLIT': 12112725}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Card Counting decks = 4, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000, Positive reward * 2
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -20.09954
+Number of actions performed in each category: {'STAND': 32479443, 'HIT': 24969059, 'DOUBLE DOWN': 12045109, 'SPLIT': 11743379}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Card Counting decks = 4, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000, Negative reward * 2
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -313.13196
+Number of actions performed in each category: {'STAND': 38310583, 'HIT': 20413115, 'DOUBLE DOWN': 6800906, 'SPLIT': 10463180}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Card Counting decks = 4, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000, Dealer stops at 16
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -101.18234
+Number of actions performed in each category: {'STAND': 31572471, 'HIT': 26872770, 'DOUBLE DOWN': 9335511, 'SPLIT': 14853526}
+
+Q-Learning, Drawing & Standing & Doubling Down & Splitting Pairs, Card Counting decks = 4, Training epochs = 50000, Evaluation players = 50000, Evaluation epochs per player = 1000, Dealer stops at 18
+Start learning with Q-Learning and the calculation of the profit or loss ...
+Player 50000/50000
+Learning and Calculation completed!
+Average payout of a player after 1000 rounds is -19.515
+Number of actions performed in each category: {'STAND': 36473335, 'HIT': 21607406, 'DOUBLE DOWN': 9529844, 'SPLIT': 8935556}
