@@ -19,14 +19,41 @@ The goal of this repository is to implement the following rules:
 		- Dealer stops at 16  
 		- Dealer stops at 18  
 
-ToDo:  
-Splitting does not work correctly yet.  
-
-agent.py provides, the agents for Q-Learning and SARSA  
-deck.py provides the deck for card counting  
-environment.py provides the environment  
-play.py brings everything together here and can be seen as the starting point  
-Plots This folder contains all tested hyperparameters and the corresponding images.  
-
 [1] Edward O. Thorp, "Beat the Dealer", Vintage, 1966   
+
+
+## ToDo:  
+Splitting does not work correctly yet. Here there is still room for improvement. 
+
+
+## Overview of the folder structure and files
+| Files               | Description                                                             |
+| ------------------- | ----------------------------------------------------------------------- |
+| Plots/              | contains all tested hyperparameters and the corresponding images        |
+| agent.py            | provides the agents for Q-Learning and SARSA                            |
+| deck.py             | provides the deck for card counting                                     |
+| environment.py      | provides the environment                                                |
+| play.py             | brings everything together here and can be seen as the starting point   |
+
+
+## Overview of the experiments and achieved results
+Drawing & Standing is used in every attempt. The evaluation is based on the average payout. The corresponding image can be found in the Plots folder. A positive result is achieved only once. <br> 
+| Learning algorithm   | Doubling Down & Splitting Pairs   | Complete Point-Count System   | Training epochs = Evaluation players   | Evaluation epochs per player   | Average Payout   | Extension   |
+| ---------- | ----- | ----- | ----: | ---: | -------: | ------------------- |
+| SARSA      | False | False | 100   | 100  | -18.02   |                     |
+| SARSA      | False | False | 50000 | 1000 | -186.29  |                     |
+| Q-Learning | False | False | 100   | 100  | -30.58   |                     |
+| Q-Learning | False | False | 50000 | 1000 | -63.45   |                     |
+| Q-Learning | True  | False | 50000 | 1000 | -109.55  |                     |
+| Q-Learning | True  | True  | 50000 | 1000 | -103.94  | Number of decks 6   |
+| Q-Learning | True  | True  | 50000 | 1000 | -85.10   | Number of decks 4   |
+| Q-Learning | True  | True  | 50000 | 1000 | **0.71** | Number of decks 1   |
+| Q-Learning | True  | False | 50000 | 1000 | -98.02   | Positive reward * 2 |
+| Q-Learning | True  | False | 50000 | 1000 | -269.54  | Negative reward * 2 |
+| Q-Learning | True  | True  | 50000 | 1000 | -20.10   | Positive reward * 2 |
+| Q-Learning | True  | True  | 50000 | 1000 | -313.13  | Negative reward * 2 |
+| Q-Learning | True  | False | 50000 | 1000 | -73.49   | Dealer stops at 16  |
+| Q-Learning | True  | False | 50000 | 1000 | -53.40   | Dealer stops at 18  |
+| Q-Learning | True  | True  | 50000 | 1000 | -101.18  | Dealer stops at 16  |
+| Q-Learning | True  | True  | 50000 | 1000 | -19.52   | Dealer stops at 18  |
 
